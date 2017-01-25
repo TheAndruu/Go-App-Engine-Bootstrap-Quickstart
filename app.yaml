@@ -1,0 +1,30 @@
+runtime: go
+api_version: go1
+
+handlers:
+- url: /bootstrap/css
+  static_dir: bootstrap/css
+  mime_type: text/css
+
+- url: /bootstrap/js
+  static_dir: bootstrap/js
+  mime_type: application/javascript
+
+- url: /bootstrap/fonts/(.*\.(woff|woff2|ttf))$
+  upload: bootstrap/fonts/.*\.(woff|woff2|ttf)$
+  static_files: bootstrap/fonts/\1
+  mime_type: font/.*\.(woff|woff2|ttf)$
+
+- url: /bootstrap/fonts/(.*\.svg)$
+  upload: bootstrap/fonts/(.*\.svg)$
+  static_files: bootstrap/fonts/\1
+  mime_type: image/svg+xml
+
+- url: /bootstrap/fonts/(.*\.eot)$
+  upload: bootstrap/fonts/(.*\.eot)$
+  static_files: bootstrap/fonts/\1
+  mime_type: application/vnd.ms-fontobject
+
+
+- url: /.*
+  script: _go_app

@@ -1,0 +1,28 @@
+{{ define "content" }}
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+    <h1>{{printf "%s" .Title}}!</h1>
+
+    <p>
+        {{printf "%s" .Message}}!
+    </p>
+
+    <p>
+        <button id="tryme" type="button" class="btn btn-primary">Click here</button> to see all the components included with Bootstrap.
+    </p>
+    
+    <script type="text/javascript">
+        $("#tryme").click(function(){
+            window.location.href = "/showcase";
+        });
+    </script>
+
+</div>
+
+{{ end }}
+
+{{ define "head" }}
+  <!--Show ability to set title with the same data-->
+  <title>{{printf "%s" .Title}}!</title>
+{{ end }}
