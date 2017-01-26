@@ -22,7 +22,7 @@ In addition to checking out this git repo, you can fetch the project with ```go 
 > goapp serve
 ```
 
-Navigating a browser to `localhost:8080` then displays the welcome page: ![Welcome pagel](/images/go-gae-bootstrap-quickstart/welcome.png)
+Navigating a browser to `localhost:8080` then displays the welcome page!
 
 ### Set Up App Engine SDK
 
