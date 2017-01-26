@@ -8,7 +8,7 @@ More details and suggested use are available in the original article here: [Nest
 
 ## What it looks like
 
-The demo running at [http://bootstrap.m0d3rnc0ad.appspot.com/](http://bootstrap.m0d3rnc0ad.appspot.com/), demonstrates the ability to render templated pages inheriting all the Bootstrap components: ![Example Components](https://d2q4nobwyhnvov.cloudfront.net/fa935a8b-146b-4237-b5ef-39d6b31bb892/vl-i83CzEKueHyw/images/go-gae-bootstrap-quickstart/showcase.png)
+The [demo page](http://bootstrap.m0d3rnc0ad.appspot.com/), shows the ability to render templated pages inheriting all the Bootstrap components: ![Example Components](https://d2q4nobwyhnvov.cloudfront.net/fa935a8b-146b-4237-b5ef-39d6b31bb892/vl-i83CzEKueHyw/images/go-gae-bootstrap-quickstart/showcase.png)
 
 ## Getting the code
 
